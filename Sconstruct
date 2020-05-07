@@ -1,0 +1,5 @@
+import os
+
+this_sconscript_file = (lambda x:x).__code__.co_filename
+code_base = os.path.dirname(this_sconscript_file)
+print (code_base)
