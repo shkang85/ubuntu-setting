@@ -10,3 +10,11 @@ xev를 찾은 key 값을 Hangul 키로 세팅한다.
 
 ## Hangul 키 세팅 2
 - /usr/share/X11/xkb/symbols/altwin 수정
+
+## Vivado 실행용 세팅
+- Error message
+application-specific initialization failed: couldn't load file "librdi_commontasks.so": libtinfo.so.5: cannot open shared object file: No such file or directory
+
+- sudo apt install libtinfo-dev
+- cd /usr/lib/x86_64-linux-gnu
+- sudo ln -s libtinfo.so.6 libtinfo.so.5
