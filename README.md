@@ -18,3 +18,9 @@ application-specific initialization failed: couldn't load file "librdi_commontas
 - sudo apt install libtinfo-dev
 - cd /usr/lib/x86_64-linux-gnu
 - sudo ln -s libtinfo.so.6 libtinfo.so.5
+
+# mac setting
+
+## 배터리 광탈 문제 해결
+
+- sudo pmset standbydelaylow 600 standbydelayhigh 3600
